@@ -24,6 +24,11 @@ SplashScreen.preventAutoHideAsync();
 export default function RootLayout() {
   const [loaded, error] = useFonts({
     SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf'),
+    PelikanBold: require('../assets/fonts/pelikan-bold.otf'),
+    PelikanBook: require('../assets/fonts/pelikan-book.otf'),
+    PelikanMedium: require('../assets/fonts/pelikan-medium.otf'),
+    PelikanThin: require('../assets/fonts/pelikan-thin.otf'),
+    PelikanRegular: require('../assets/fonts/pelikan-regular.otf'),
     ...FontAwesome.font,
   });
 
