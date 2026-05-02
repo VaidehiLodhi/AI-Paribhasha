@@ -34,6 +34,13 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "f80016ef-4e7e-42e4-b085-0f83f9ab2530"
+      }
+    },
+    "owner": "vaibee"
   }
 }
